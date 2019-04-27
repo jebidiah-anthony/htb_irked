@@ -121,10 +121,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
      # -rw-------  1 djmardov djmardov   33 May 15  2018 user.txt     
 
      cat .backup
-     ```
-     ```
-     Super elite steg backup pw
-     UPupDOWNdownLRlrBAbaSSss
+     # Super elite steg backup pw
+     # UPupDOWNdownLRlrBAbaSSss
      ```
    __Notes__:
    - There exists a user named __djmardov__
@@ -144,7 +142,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
      ```
      Kab6h+m+bbp2J:HG
      ```
-2. Login via SSH with user __djmardov__
+2. Login via SSH as user __djmardov__
    ```console
    ssh -l djmardov 10.10.10.117
    # djmardov@10.10.10.117's password: Kab6h+m+bbp2J:HG
