@@ -68,7 +68,10 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
    - The pages also only contains an image (__*irked.jpg*__)
    - Running `gobuster` and `nikto` doesn't seem to yield interesting results.
 
-2. Attempt exploitation of the IRC service (__port 6697__)
+---
+
+## PART 3 : Generate User Shell
+1. Attempt exploitation of the IRC service (__port 6697__)
    - UnrealIRCD 3.2.8.1 Backdoor Command Execution ([CVE-2010-2075](https://www.rapid7.com/db/modules/exploit/unix/irc/unreal_ircd_3281_backdoor))
      ```console
      msfconsole
@@ -130,10 +133,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
    - __*.backup*__ contains a steg password
      - Maybe it could be used on __*irked.jpg*__ from the http service
 
----
-
-## PART 3 : Generate User Shell
-1. Run __*irked.jpg*__ on online steg tools
+2. Run __*irked.jpg*__ on online steg tools
    - https://futureboy.us/stegano/decinput.html
      
      ![Irked Steg](./screenshots/80_irked_steg.png)
@@ -142,7 +142,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
      ```
      Kab6h+m+bbp2J:HG
      ```
-2. Login via SSH as user __djmardov__
+3. Login via SSH as user __djmardov__
    ```console
    ssh -l djmardov 10.10.10.117
    # djmardov@10.10.10.117's password: Kab6h+m+bbp2J:HG
