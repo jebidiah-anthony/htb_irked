@@ -130,7 +130,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
    - There exists a user named __djmardov__
    - __*user.txt*__ is readable only as __djmardov__ or as __root__
    - __*.backup*__ contains a steg password
-     - Maybe it could be used on __*irked.jpg*__ on the http service on port 80
+     - Maybe it could be used on __*irked.jpg*__ from the http service
 
 ---
 
@@ -175,7 +175,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
    ```
    __Notes__:
    - __*viewuser*__ runs __*/tmp/listusers*__
-     - The file is not found.
+     - The file does not yet exist in the system
      - __*/tmp/listusers*__ will be run as root no matter who owns it
 3. Create payload:
    ```console
