@@ -64,8 +64,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
      <b><center>IRC is almost working!</b></center>
      ```
    __Notes__:
-   - The pages only contains an image named __*irked.jpg*__
-   - It seems to be pointing us to the __*IRC service*__ on __port 6697__
+   - The page seems to be pointing us to the __*IRC service*__ on __port 6697__
+   - The pages also only contains an image (__*irked.jpg*__)
    - Running `gobuster` and `nikto` doesn't seem to yield interesting results.
 
 2. Attempt exploitation of the IRC service (__port 6697__)
